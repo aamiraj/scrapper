@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer Information</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+      .options {
+        height: 100px;
+        width: 150px;
+        margin-bottom: 20px;
+        /* background-color: yellow; */
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .yellow {
+        background-color: yellow;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .green {
+        background-color: blue;
+      }
+
+      #popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-iframe {
+  width: 80%;
+  height: 80%;
+  border: none;
+}
+
+#close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Customer Information</h1>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td>Name:</td>
+            <td><%= data.output.name %></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td><%= data.output.email %></td>
+          </tr>
+          <tr>
+            <td>Phone:</td>
+            <td><%= data.output.phone %></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-between">
+        <button type="button" class="btn btn-primary options">Bank</button>
+        <button type="button" class="btn btn-secondary options">
+          I.D
+        </button>
+        <button type="button" class="btn btn-success options">Paid Stub</button>
+        <button type="button" class="btn btn-success options">IBU</button>
+      </div>
+      <h3 class="h3">Bank Sender</h3>
+      
+
+      <% for (var j = 0; j < data.output.data.length; j++) { %>
+        <div class="row">
+          <% for (var i = 0; i < data.output.data[j]['Bank Conversation'].length; i++) { %>
+            <div class="col-md-2">
+              <button onclick="showPopup('/messages/<%= j %>/<%= i %>')" type="button" class="btn btn-primary btn-block options <%= data.output.data[j]['Bank Conversation'][i].status == 'QT.gif' ? 'blue' : 'red'  %>"><%= data.output.data[j]['Bank Conversation'][i].bank %></button>
+            </div>
+          <% } %>
+        </div>
+      <% } %>
+
+
+      <br>
+
+      <label for="note">Note:</label>
+            <textarea class="form-control" id="note" rows="5"></textarea>
+
+
+            <br>
+            
+
+      <label for="message-to-customer">Message to Customer:</label>
+            <textarea class="form-control" id="message-to-customer" rows="5"></textarea>
+
+            <br>
+
+        Send : 
+          <label for="checkbox1">&nbsp;Email</label>
+          <input type="checkbox" id="checkbox1" name="checkbox1" value="value1">
+
+          <label for="checkbox2">&nbsp;SMS</label>
+          <input type="checkbox" id="checkbox2" name="checkbox2" value="value2">
+
+          <label for="checkbox3">&nbsp;Vocal</label>
+          <input type="checkbox" id="checkbox3" name="checkbox3" value="value3">
+        
+        <br>
+            <br>
+
+
+            <div id="popup-container">
+              <iframe id="popup-iframe"></iframe>
+              <button id="close-popup" onclick="hidePopup()">Close</button>
+            </div>
+            
+
+    </div>
+
+
+    <script>
+      var popupContainer = document.getElementById('popup-container');
+var popupIframe = document.getElementById('popup-iframe');
+
+function showPopup(url) {
+  popupIframe.src = url;
+  popupContainer.style.display = 'flex';
+}
+
+function hidePopup() {
+  popupIframe.src = '';
+  popupContainer.style.display = 'none';
+}
+
+      </script>
+
+
+
+  </body>
+</html>

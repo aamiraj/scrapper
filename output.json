@@ -1,0 +1,288 @@
+{
+    "name": "Mohamed Louali",
+    "phone": "4162549340",
+    "email": "Mohamed.Louali@coxautoinc.com",
+    "data": [
+        {
+            "transfer": "",
+            "deal": "36184129",
+            "name": "ROSAIRE, GIRARD",
+            "date": "03/05/2023\n12:18 PM",
+            "author": "(Alexandra Perez)",
+            "Bank Conversation": [
+                {
+                    "bank": "ACCES",
+                    "status": "QT.gif",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                },
+                {
+                    "bank": "LCI",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                },
+                {
+                    "bank": "Iceberg",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "Dossier refus\u00e9, mauvais ant\u00e9c\u00e9dents de cr\u00e9dit, ne rencontre pas nos normes d'approbation.",
+                            "Action": "",
+                            "Sent": "2023-03-04 2:14:59 PM",
+                            "From": "NLC Lender\n(Iceberg Finance)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "EPI",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "*** QUEBEC DEALER *** Merci pour l'opportunit\u00e9e , malheureusement l'appliquant n'a pas la dur\u00e9e d'e...",
+                            "Action": "",
+                            "Sent": "2023-03-04 2:10:58 PM",
+                            "From": "NLC Lender\n(EdenPark)"
+                        },
+                        {
+                            "": "",
+                            "Message": "DECISION: Declined Decision Type: Automatic Decision...",
+                            "Action": "",
+                            "Sent": "2023-03-04 2:10:58 PM",
+                            "From": "NLC Lender\n(EdenPark)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "Applicant resides outside of IA\u00bfs service area / Demandeur \u00e0 l\u00bfext\u00e9rieur du territoire desservi par ...",
+                            "Action": "",
+                            "Sent": "2023-03-04 2:08:16 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        },
+                        {
+                            "": "",
+                            "Message": "DECISION: Declined",
+                            "Action": "",
+                            "Sent": "2023-03-04 2:08:15 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36156388",
+            "name": "St-Gelais, Daniel",
+            "date": "03/03/2023\n3:06 PM",
+            "author": "(Marc-Andr\u00e9 Pilon)",
+            "Bank Conversation": [
+                {
+                    "bank": "EPI",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "*** QUEBEC DEAL *** Malheureusement, cette demande ne r\u00e9pond pas aux crit\u00e8res de cr\u00e9dit actuels de ...",
+                            "Action": "",
+                            "Sent": "2023-03-03 3:06:12 PM",
+                            "From": "NLC Lender\n(EdenPark)"
+                        },
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 Type de d\u00e9cision: D\u00e9cision automatique...",
+                            "Action": "",
+                            "Sent": "2023-03-03 3:06:11 PM",
+                            "From": "NLC Lender\n(EdenPark)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 -------------------------------------------------...",
+                            "Action": "",
+                            "Sent": "2023-03-01 3:30:40 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36169244",
+            "name": "gauthier, michel",
+            "date": "03/02/2023\n6:14 PM",
+            "author": "(Martin Isabelle)",
+            "Bank Conversation": [
+                {
+                    "bank": "OCM",
+                    "status": "QT.gif",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36138595",
+            "name": "DESCHENES, JEAN GUY",
+            "date": "02/27/2023\n8:05 PM",
+            "author": "(Alexandra Perez)",
+            "Bank Conversation": [
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 -------------------------------------------------...",
+                            "Action": "",
+                            "Sent": "2023-02-27 8:05:46 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "LCI",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36107326",
+            "name": "ALAIN, GUILLAUME",
+            "date": "02/24/2023\n12:56 PM",
+            "author": "(Alexandra Perez)",
+            "Bank Conversation": [
+                {
+                    "bank": "LCI",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                },
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 -------------------------------------------------...",
+                            "Action": "",
+                            "Sent": "2023-02-24 12:05:29 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "Iceberg",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "Attention, la date de naissance du demandeur ne correspond pas avec celle du dossier de cr\u00e9dit. Veui...",
+                            "Action": "",
+                            "Sent": "2023-02-24 11:48:55 AM",
+                            "From": "NLC Lender\n(Iceberg Finance)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36088359",
+            "name": "ELAHDAR, MAROUANE",
+            "date": "02/22/2023\n2:26 PM",
+            "author": "(Alexandra Perez)",
+            "Bank Conversation": [
+                {
+                    "bank": "LCI",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                },
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 -------------------------------------------------...",
+                            "Action": "",
+                            "Sent": "2023-02-22 2:23:52 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "transfer": "",
+            "deal": "36069420",
+            "name": "Gamelin, Gilles",
+            "date": "02/21/2023\n12:27 PM",
+            "author": "(Marc-Andr\u00e9 Pilon)",
+            "Bank Conversation": [
+                {
+                    "bank": "LCI",
+                    "messages": [
+                        {
+                            "": "0 notifications found."
+                        }
+                    ]
+                },
+                {
+                    "bank": "iAAF",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "D\u00c9CISION: Refus\u00e9 -------------------------------------------------...",
+                            "Action": "",
+                            "Sent": "2023-02-20 9:26:35 PM",
+                            "From": "NLC Lender\n(iA Auto Finance)"
+                        }
+                    ]
+                },
+                {
+                    "bank": "Iceberg",
+                    "messages": [
+                        {
+                            "": "",
+                            "Message": "Attention, la date de naissance du demandeur ne correspond pas avec celle du dossier de cr\u00e9dit. Veui...",
+                            "Action": "",
+                            "Sent": "2023-02-20 8:08:55 PM",
+                            "From": "NLC Lender\n(Iceberg Finance)"
+                        },
+                        {
+                            "": "",
+                            "Message": "Dossier refus\u00e9, mauvais ant\u00e9c\u00e9dents de cr\u00e9dit, ne rencontre pas nos normes d'approbation.",
+                            "Action": "",
+                            "Sent": "2023-02-20 8:08:52 PM",
+                            "From": "NLC Lender\n(Iceberg Finance)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
